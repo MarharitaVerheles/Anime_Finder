@@ -6,7 +6,7 @@ from model import recommendations_title, recommendations_by_description2, find_a
 from web_scraper import get_anime_pic
 
 user_data = {}
-bot = telebot.TeleBot('6157376204:AAGGfXQvutYJ3SSYjHcBpqFKLTbeMgcN_IY')
+bot = telebot.TeleBot('token')
 
 class UserData:
     def __init__(self, title='', user_input='', iteration=0, recommendations_list=None):
